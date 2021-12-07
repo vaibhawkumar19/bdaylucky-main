@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IsTriangle</title>
+    <title>Lucky or Not</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="main">
-        <a href="index.html">IsTriangle</a>
-        <a href="hypo.html">IsHypotenuse</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="triangle.html">Area</a>
-    </nav>
-    <h1 class="trng">IsTriangle?</h1>
-<div class="conatainer">
-    <label for="triangle">Angle1(InDegrees)</label> <br>
-    <input type="number" class="angles"/> <br>
-    <label for="triangle">Angle2(InDegrees)</label> <br>
-    <input type="number" class="angles"/> <br>
-    <label for="triangle">Angle3(InDegrees)</label> <br>
-    <input type="number" class="angles"/> <br>
-    <button id="btn">IsTriangle</button>
-    <div id="output"></div>
-</div>
+    <h1>Is your birthday lucky 🥳</h1>
+    <div class="container">
+        <label for="Birthday">Date of birth :</label> <br>
+        <input type="date" class="birthday" value="date" id="bday"> <br>
+        <br>
+        <label for="number">Lucky number :</label> <br>
+        <input type="number" name="number" id="num" value="num"> <br>
+        <br>
+        <input type="submit" value="submit" id="submit">
+        <div class="output" id="output"></div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
